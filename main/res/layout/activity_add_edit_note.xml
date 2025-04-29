@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Використовуємо простий LinearLayout -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".activity.AddEditNoteActivity">
+
+    <EditText
+        android:id="@+id/editTextNoteText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_note_text"
+        android:inputType="textMultiLine|textCapSentences"
+        android:minHeight="100dp"
+        android:gravity="top"
+        android:importantForAutofill="no" /> <!-- Додано для Autocomplete -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/textViewSelectedDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/no_date_selected"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center_vertical"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp" />
+
+        <Button
+            android:id="@+id/buttonPickDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_date"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/textViewSelectedTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/no_time_selected"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center_vertical"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp" />
+
+        <Button
+            android:id="@+id/buttonPickTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_time"/>
+    </LinearLayout>
+
+    <!-- Займає вільне місце, щоб кнопка була знизу -->
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/buttonSaveNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save_note"
+        android:layout_marginTop="24dp"/>
+
+</LinearLayout>

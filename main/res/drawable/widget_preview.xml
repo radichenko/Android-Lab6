@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Фон (схожий на widget_background.xml) -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#BFFFFFFF" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+
+    <!-- Імітація тексту -->
+    <item android:top="8dp" android:left="8dp" android:right="8dp" android:bottom="24dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#4D000000"/> <!-- Напівпрозорий сірий для тексту -->
+            <corners android:radius="2dp"/>
+        </shape>
+    </item>
+    <item android:top="16dp" android:left="8dp" android:right="48dp" android:bottom="28dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#4D000000"/>
+            <corners android:radius="2dp"/>
+        </shape>
+    </item>
+
+    <!-- Імітація дати/часу -->
+    <item android:top="32dp" android:left="60dp" android:right="8dp" android:bottom="8dp" android:height="10dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#33000000"/> <!-- Ще світліший сірий -->
+            <corners android:radius="2dp"/>
+        </shape>
+    </item>
+
+</layer-list>

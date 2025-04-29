@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Lab6App</string>
+    <string name="add_note">Додати нотатку</string>
+    <string name="delete_note">Видалити нотатку</string>
+
+    <string name="enter_note_text">Введіть текст нотатки</string>
+    <string name="no_date_selected">Дата не обрана</string>
+    <string name="select_date">Обрати дату</string>
+    <string name="no_time_selected">Час не обрано</string>
+    <string name="select_time">Обрати час</string>
+    <string name="save_note">Зберегти нотатку</string>
+    <string name="please_enter_text">Будь ласка, введіть текст нотатки</string>
+
+    <string name="note_deleted_message">Нотатку видалено</string>
+    <string name="undo_action">СКАСУВАТИ</string>
+
+
+    <string name="title_edit_note">Редагувати Нотатку</string>
+    <string name="title_add_note">Додати Нотатку</string>
+    <string name="error_note_not_found">Помилка: Нотатку не знайдено!</string>
+    <string name="note_saved_success">Нотатку збережено</string>
+    <string name="error_saving_note">Помилка збереження нотатки</string>
+    <string name="note_updated_success">Нотатку оновлено</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Скасувати</string>
+    <string name="saving_without_reminder">Зберігаємо без нагадування</string>
+    <string name="dialog_settings">Налаштування</string>
+    <string name="error_opening_settings">Не вдалося відкрити налаштування</string>
+    <string name="notification_title">Нагадування!</string>
+
+    <string name="widget_description">Показує наступне нагадування</string>
+
+    <string name="widget_loading">Завантаження...</string>
+
+    <string name="widget_no_upcoming_notes">Немає майбутніх нагадувань</string>
+
+    <string name="widget_error">Помилка завантаження</string>
+
+    <string name="reminder_time">Час нагадування</string>
+
+
+    <string name="permission_needed_title">Потрібен дозвіл</string>
+    <string name="notification_permission_rationale">Цей дозвіл необхідний для показу нагадувань про ваші нотатки у вказаний час.</string>
+    <string name="exact_alarm_permission_rationale">Щоб нагадування спрацьовували точно у вказаний час, потрібен спеціальний дозвіл. Будь ласка, увімкніть його для нашого додатку в наступному вікні налаштувань.</string>
+    <string name="dialog_grant">Надати</string>
+    <string name="permission_denied_title">Дозвіл відхилено</string>
+    <string name="notification_permission_denied_message">Без цього дозволу ви не отримуватимете нагадування. Ви можете надати дозвіл у налаштуваннях програми.</string>
+    <string name="exact_alarm_permission_denied_message">Нагадування можуть спрацьовувати невчасно або зовсім не спрацьовувати без цього дозволу.</string>
+    <string name="please_enable_alarms_manually">Будь ласка, знайдіть розділ \"Будильники та нагадування\" та увімкніть дозвіл для нашої програми.</string>
+    <string name="error_time_passed">Обраний час вже минув</string>
+
+
+
+</resources>

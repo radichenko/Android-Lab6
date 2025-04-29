@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Використовуємо ripple для ефекту кліку -->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?attr/colorControlHighlight"> <!-- Колір ефекту кліку -->
+
+    <!-- Маска для ripple (має бути такої ж форми, як фон) -->
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/white" /> <!-- Колір маски не важливий -->
+            <corners android:radius="16dp" /> <!-- Такий самий радіус, як у фону -->
+        </shape>
+    </item>
+
+    <!-- Основний фон -->
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <!-- Використовуємо колір з теми Material 3 для поверхонь -->
+            <solid android:color="?attr/colorSurfaceContainerHighest" />
+            <corners android:radius="16dp" /> <!-- Більше закруглення -->
+        </shape>
+    </item>
+</ripple>
